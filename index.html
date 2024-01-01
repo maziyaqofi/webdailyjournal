@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Daily Journal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <style>
+    /* Dark Mode Styles */
+    body.dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+
+    /* Light Mode Styles */
+    body.light-mode {
+      background-color: #f8f9fa;
+      color: black;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">My Daily Journal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-dark">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#artikel">Artikel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galeri">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#schedule">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About me</a>
+              </li>
+              <li class="nav-item">
+                <button id="dark" class="btn bg-dark" style="color: white">
+                  <b>DARK</b> <!-- <i class="bi bi-moon-stars"></i> -->
+                </button>
+              </li>
+              <li class="nav-item">
+                <button id="light" class="btn bg-info" style="color: white">
+                  <b>LIGHT</b> <!-- <i class="bi bi-brightness-high"></i> -->
+                </button>
+              </li>            
+
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      
+
+    <!-- home -->
+    
+    
+    <section id="home" class="text-center p-5 bg-info-subtle text-sm-start">
+      <div class="container"> <br>
+        <h3 class="fw-bold display-4 pb-3 text-center">HOME</h3>
+        <h1 class="text-center">WELCOME</h1> <br>
+
+        <div class="d-sm-flex flex-sm-row-reverse align-items-center">
+          <img src="foto.JPG" class="img-fluid" width="300" />
+          <div>
+            <h1 class="fw-bold display-7">
+              Hello Everyone, I'm Maziya. This is a daily journal
+            </h1>
+            <h4 class="lead display-9">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati illo, hic molestias optio temporibus minus voluptas facere reprehenderit architecto illum nam aliquid laboriosam perspiciatis, iure nostrum sequi exercitationem? Sapiente, fugiat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, porro modi? Voluptatibus quos numquam eaque dolorem pariatur odit soluta saepe? Eaque earum esse quasi officiis unde? Animi rem non natus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sunt in consequuntur ut, aliquid nihil. Veniam itaque adipisci optio. Vitae, delectus inventore! Voluptate sequi assumenda natus impedit odit minima blanditiis?
+            </h4> <br>
+            <h6>
+              <span id="tanggal"></span>
+              <span id="jam"></span>
+            </h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- artikel -->
+    <section id="artikel" class="text-center p-5 bg-info-subtle text-sm-start">
+      <div class="container"><br>
+        <h3 class="fw-bold display-4 pb-3 text-center">Artikel</h3>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="IMG_7430.JPG" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Buku Harian 1</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum quis laudantium voluptas reiciendis fuga numquam velit iste repellat fugiat deleniti amet sunt nesciunt nemo, in repellendus ipsum nam consequatur delectus! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores iure facere similique fugit sequi hic, error tempore minus velit aliquam, molestias placeat quos ea architecto ullam animi, eaque doloremque dicta.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="IMG_8068.JPG" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Buku Harian 2</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis cum asperiores officiis error consectetur dicta delectus animi, eligendi ipsam repudiandae quia iusto eos, provident culpa, soluta maiores veniam. Quidem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure non animi earum explicabo quis autem quia rerum pariatur deleniti at tempore quidem qui vel nihil, libero velit dolor hic beatae!</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="foto.JPG" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Buku Harian 3</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa dolores illo eaque voluptatum saepe fugit beatae eveniet quaerat consequuntur ipsa! Quod numquam cupiditate fuga ex doloremque similique corporis cum molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti commodi, repellendus fugiat inventore nesciunt qui. Tempore sunt harum dignissimos obcaecati illum provident. Inventore officia porro esse nihil molestiae dignissimos veniam.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="foto.JPG" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Buku Harian 4</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa dolores illo eaque voluptatum saepe fugit beatae eveniet quaerat consequuntur ipsa! Quod numquam cupiditate fuga ex doloremque similique corporis cum molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti commodi, repellendus fugiat inventore nesciunt qui. Tempore sunt harum dignissimos obcaecati illum provident. Inventore officia porro esse nihil molestiae dignissimos veniam.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="foto.JPG" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Buku Harian 5</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa dolores illo eaque voluptatum saepe fugit beatae eveniet quaerat consequuntur ipsa! Quod numquam cupiditate fuga ex doloremque similique corporis cum molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti commodi, repellendus fugiat inventore nesciunt qui. Tempore sunt harum dignissimos obcaecati illum provident. Inventore officia porro esse nihil molestiae dignissimos veniam.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img src="foto.JPG" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Buku Harian 6</h5>
+              <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa dolores illo eaque voluptatum saepe fugit beatae eveniet quaerat consequuntur ipsa! Quod numquam cupiditate fuga ex doloremque similique corporis cum molestias! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti commodi, repellendus fugiat inventore nesciunt qui. Tempore sunt harum dignissimos obcaecati illum provident. Inventore officia porro esse nihil molestiae dignissimos veniam.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+   
+    <!-- Galeri -->
+    <section id="galeri" class="text-center p-5 bg-info-subtle">
+        <div class="container"> <br>
+            <h3 class="fw-bold display-4 pb-3">GALERI</h3>
+            
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="IMG_7430.JPG" class="d-block w-100" alt="Gambar lainnya">
+                </div>
+                <div class="carousel-item">
+                  <img src="IMG_8068.JPG" class="d-block w-100" alt="Gambar lainnya">
+                </div>
+                <div class="carousel-item">
+                  <img src="foto.JPG" class="d-block w-100" alt="Gambar lainnya">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- schedule -->
+    <section id="schedule" class="text-center p-5 bg-info-subtle">
+        <div class="container">
+            <br>
+            <h3 class="fw-bold display-4 pb-3">SCHEDULE</h3> <br>
+            <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title bg-info p-3">Senin</h5>
+                      <p class="card-text">
+                        <p>Pendidikan Kewarganegaraan</p>
+                        <p>Manajemen Proyek Teknologi Informasi</p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                   
+                    <div class="card-body">
+                      <h5 class="card-title bg-info p-3">Selasa</h5>
+                      <p class="card-text">
+                        <p>Bahasa Indonesia</p>
+                        <p>Pendidikan Agama Islam</p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    
+                    <div class="card-body">
+                      <h5 class="card-title bg-info p-3">Rabu</h5>
+                      <p class="card-text">
+                        <p>Etika Profesi</p>
+                        <p>Pemrograman Berbasis Web</p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body ">
+                      <h5 class="card-title bg-info p-3">Kamis</h5>
+                      <p class="card-text">
+                        <p>Etika Profesi</p>
+                        <p>Pemrograman Berbasis Web</p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                      <div class="card-body ">
+                        <h5 class="card-title bg-info p-3">Jum'at</h5>
+                        <p class="card-text">
+                          <p>Mathematika</p> 
+                          <p>Etika Profesi</p>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                <div class="col">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title bg-info p-3">Sabtu</h5>
+                        <p class="card-text">
+                          <p>Mathematika</p>
+                          <p>Management proyek Informasi</p>
+                        </p>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title bg-info p-3">Ahad</h5>
+                      <p class="card-text">
+                        <p>Mathematika</p>
+                        <p>Etika Profesi</p>
+                      </p>
+                    </div>
+                  </div>
+              </div>
+
+              </div>
+        </div>
+    </section>
+
+    <!-- about me -->
+    <section id="about" class="p-3 mb-2 bg-info-subtle text-black">
+        <div class="container">
+            <br> <br>
+
+            <h1 class="fw-bold display-4 text-center"><b>About Me</b></h1>
+            <br>
+            <div class="d-sm-flex align-items-center justify-content-center ">
+              <div class="p-3">
+                <img src="foto.JPG"
+                class="rounded-circle border shadow"
+                width="250">
+              </div>
+              <div class="p-md-5 text-sm-start">
+                  <h6 class="lead">A11.2023.15501</h6>
+                  <h4 class="fw-bold display-6">Maziya Ats Tsaqofi</h4>
+                  <h4>Program studi teknik informatika</h4>
+                  <h4 class="fw-bold display-6">Universitas Dian Nuswantoro</h4>
+              </div>
+            </div>            
+        </div>
+        <br>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center p-5">
+      <div>
+        <a href="https://www.instagram.com/maziya.qofi/"> <i class="bi bi-instagram h2 p-2 text-dark"></i>
+        <a href="https://dinus.ac.id/"> <i class="bi bi-twitter h2 p-2 text-dark"></i>
+        <a href="https://wa.me/+6285842348215"> <i class="bi bi-whatsapp h2 p-2 text-dark"></i>
+      </div>
+      <div></div>
+      <div>Maziya Ats Tsaqofi &copy; 2023</div>
+    </footer>
+
+    <!--Membuat tanggal dan waktu-->
+
+    <script type="text/javascript">
+
+      window.setTimeout("tampilWaktu()", 1000);
+
+      function tampilWaktu() {
+        var waktu = new Date();
+        var bulan = waktu.getMonth() + 1;
+
+        setTimeout("tampilWaktu()",1000);
+        document.getElementById("tanggal").innerHTML = 
+        waktu.getDate() + "/" + bulan + "/" + waktu.getFullYear();
+
+        document.getElementById("jam").innerHTML = 
+        waktu.getHours() + ":" + waktu.getMinutes() + ":" + waktu.getSeconds();
+      }
+      </script> 
+
+    <!--Membuat mode gelap terang berjalan-->
+
+       <script type="text/javascript">
+       document.getElementById("dark").onclick = function () {
+    
+        document.body.classList.remove("light-mode");
+        document.body.classList.add("dark-mode");
+        
+        applyDarkModeStylesToSection("artikel");
+        applyDarkModeStylesToSection("galeri");
+        applyDarkModeStylesToSection("schedule");
+        applyDarkModeStylesToSection("about");
+        applyDarkModeStylesToSection("home"); 
+      }
+
+        document.getElementById("light").onclick = function () {
+            
+            document.body.classList.remove("dark-mode");
+            document.body.classList.add("light-mode");
+
+            revertStylesForSection("artikel");
+            revertStylesForSection("galeri");
+            revertStylesForSection("schedule");
+            revertStylesForSection("about");
+            revertStylesForSection("home"); 
+        };
+
+        function applyDarkModeStylesToSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.classList.remove("bg-info-subtle"); 
+                section.style.backgroundColor = "#000"; 
+                section.style.color = "white";
+
+                
+                var childElements = section.querySelectorAll("*");
+                childElements.forEach(function (element) {
+                    element.style.backgroundColor = "#000";
+                    element.style.color = "white";
+                });
+            }
+        }
+
+        function revertStylesForSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section) {
+                section.classList.add("bg-info-subtle"); 
+                section.style.backgroundColor = ""; 
+                section.style.color = ""; 
+
+                var childElements = section.querySelectorAll("*");
+                childElements.forEach(function (element) {
+                    element.style.backgroundColor = "";
+                    element.style.color = "";
+                });
+            }
+        }
+
+              </script>
+
+  </body>
+
+</html>
